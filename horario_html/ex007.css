@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(93, 206, 214);
+    font-size: 15pt;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    padding: 7px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px; 
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.452);
+    text-align: center;
+    font-size: 18pt;
+}
+
+button#cfg{
+    background-image: url(imagens/download.png);
+    position: absolute;
+    top: 91%;
+    left: 96%;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+input#horarios{
+    display: none;
+    position: absolute;
+    top: 93%;
+    left: 91%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+img#imagem{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
