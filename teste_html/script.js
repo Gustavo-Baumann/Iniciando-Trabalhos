@@ -26,6 +26,14 @@ function mudacor(){
 
 function image(){
      document.body.background = 'imagens/164007503-andromeda-galaxy-wallpapers.jpg'
+     document.getElementById('but2').removeEventListener("click",image)
+     document.getElementById('but2').addEventListener("click",image2)
+}
+
+function image2(){
+    document.body.background = "" 
+    document.getElementById('but2').removeEventListener("click",image2)
+    document.getElementById('but2').addEventListener("click",image)
 }
 
 function broken(){
